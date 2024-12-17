@@ -21,6 +21,9 @@ I am **not responsible** for any misuse of this software. This project is intend
 1. Clone the repository: (make sure you added your own discord bot token)
    ```bash
    git clone https://github.com/yourusername/malware-discord-bot.git
+   
    cd malware-discord-bot
+   
    pip install -r requirements.txt
+   
    python index.py
