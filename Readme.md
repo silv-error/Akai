@@ -3,7 +3,7 @@
 This project is a **Malware Discord Bot** created for **educational purposes only**. It is designed to demonstrate how malware might interact with Discord servers. Please **do not** use this software for malicious purposes.
 
 ## Commands
-![Command List](cmds.png)
+![alt text](https://media.discordapp.net/attachments/1305451657357819926/1318638261576667136/cmds.PNG?ex=67630d14&is=6761bb94&hm=995d51a9e4395602949fae4e8d639592a082cda46123cd73ca3a3c4a452f89d3&=&format=webp&quality=lossless)
 
 ## Disclaimer
 
