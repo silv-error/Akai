@@ -1,5 +1,8 @@
 # Malware Discord Bot (Educational Purposes Only)
 
+
+a proof-of-concept malware designed to demonstrate how vulnerabilities in popular messaging platforms like Discord can be exploited to gain unauthorized remote control of a user's device. This project highlights the potential security risks associated with online communication tools and aims to raise awareness about cybersecurity threats.
+
 This project is a **Malware Discord Bot** created for **educational purposes only**. It is designed to demonstrate how malware might interact with Discord servers. Please **do not** use this software for malicious purposes.
 
 ## Commands
