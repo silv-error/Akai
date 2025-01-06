@@ -6,7 +6,7 @@ a proof-of-concept malware designed to demonstrate how vulnerabilities in popula
 This project is a **Malware Discord Bot** created for **educational purposes only**. It is designed to demonstrate how malware might interact with Discord servers. Please **do not** use this software for malicious purposes.
 
 ## Commands
-![alt text](https://media.discordapp.net/attachments/1305451657357819926/1318638261576667136/cmds.PNG?ex=67630d14&is=6761bb94&hm=995d51a9e4395602949fae4e8d639592a082cda46123cd73ca3a3c4a452f89d3&=&format=webp&quality=lossless)
+![alt text](https://cdn.discordapp.com/attachments/1305451657357819926/1318638261576667136/cmds.PNG?ex=677cc254&is=677b70d4&hm=b31f16fc135f74bb56e3afb742afd005fa462ec978f5ff1a67c566704f9afbb2&)
 
 ## Disclaimer
 
